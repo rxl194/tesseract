@@ -19,6 +19,9 @@ vs2010/LIB_Release/*
 vs2010/LIB_OpenCL_Release/*
 vs2010/LIB_OpenCL_Debug/*
 
+MSys/*
+NB_tesseract/*
+tesseract_output/*
 
 
 # Linux
