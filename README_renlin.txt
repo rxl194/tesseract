@@ -6,7 +6,7 @@ Fedora:
     --enable-debug \
     --prefix=$HOME/local/tesseract \
     --with-extra-libraries=$HOME/local/leptonica/lib 
-  make; sudo make install
+  make; sudo make install; sudo make ldconfig;
   make training; sudo make training-install
   
   Language Data
