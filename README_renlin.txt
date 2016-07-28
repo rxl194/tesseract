@@ -6,8 +6,18 @@ Fedora:
     --enable-debug \
     --prefix=$HOME/local/tesseract \
     --with-extra-libraries=$HOME/local/leptonica/lib 
-  make; sudo make install; sudo make ldconfig;
+  make; sudo make install; sudo ldconfig;
+
   make training; sudo make training-install
+  :) If failed: vi training/Makefile
+                    CPPFLAGS =  -I/opt/cv/include/leptonica   \
+                                -I/usr/include/pango-1.0 \
+                                -I/usr/include/glib-2.0 \
+                                -I/usr/lib/x86_64-linux-gnu/glib-2.0/include \
+                                -I/usr/include/cairo \
+                                -I/usr/include/freetype2
+
+
   
   Language Data
 
