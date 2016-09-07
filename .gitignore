@@ -20,6 +20,7 @@ vs2010/LIB_OpenCL_Release/*
 vs2010/LIB_OpenCL_Debug/*
 
 MSys/*
+MSys_renlin_201607/*
 NB_tesseract/*
 tesseract_output/*
 
